@@ -1,0 +1,6 @@
+﻿print("hello world")
+print(100+200+300)
+print("1024*768=",1024*768)
+name=input("请输入你的姓名:")
+age=input("请输入你的年龄:")
+print(name,"你好","你的年龄为:",age,"岁")
