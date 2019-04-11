@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="WChat">
+    <output-path>D:/Program Files/apache-tomcat-7.0.82/webapps</output-path>
+    <root id="archive" name="WChat.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WChat" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="dom4j-1.1" />
+          <element id="library" level="project" name="xstream-1.3.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="WChat/web/Web" />
+    </root>
+  </artifact>
+</component>
